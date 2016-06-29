@@ -1,0 +1,46 @@
+.perspective {
+  -webkit-perspective: 800px;
+  perspective: 800px;
+  -webkit-perspective-origin: 50% 100px;
+  perspective-origin: 50% 100px;
+}
+.preserve-3d {
+  -webkit-transform-style: preserve-3d;
+}
+.warp {
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.bg div {
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: All 0s 0s;
+}
+.bg .sunnyday {
+  background-image: -webkit-linear-gradient(45deg, #5646aa 0%, #6f6196 35%, #a9a7d3 75%, #ffffff 100%);
+}
+.actor {
+  width: 100%;
+  height: 100%;
+  display: -webkit-flex;
+  -webkit-flex-flow: column;
+}
+.actor .morning.sky {
+  -webkit-flex: 1;
+  background: blue;
+}
+.actor .morning.ground {
+  -webkit-flex: 1;
+  background: red;
+}
+.actor .morning.sun {
+  position: absolute;
+}
